@@ -37,4 +37,21 @@ const person = {
   
   console.log (newAge2.age);
   console.log (newAge.age);
+
+  // or (with nested object):
+  const newAddress = {
+    name: 'Ann',
+    age: 28,
+    address: {
+        city: 'London',
+        phoneNumber: '1209345656'
+    }
+  }
+  
+  const newAddress2 = JSON.parse (JSON.stringify (newAddress));
+  newAddress.address.city = 'Oxford';
+  
+  console.log (newAddress2.address.city);
+  console.log (newAddress.address.city);
+
   
