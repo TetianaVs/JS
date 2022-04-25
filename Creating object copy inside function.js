@@ -1,3 +1,5 @@
+// Creating object copy inside function without mutation
+
 //object personOne
 const personOne = {
     name: "Bob",
