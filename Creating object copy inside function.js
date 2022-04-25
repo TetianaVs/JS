@@ -1,4 +1,4 @@
-// Creating object copy inside function without mutation
+// Creating object copy inside function without mutation (object personOne will not change, only its copy(updatedPerson))
 
 //object personOne
 const personOne = {
